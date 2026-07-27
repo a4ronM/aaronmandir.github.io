@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaron Mandir — Projects Portfolio</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #5a5a5a;
+    --line: #e2e2e2;
+    --accent: #14304a;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.55;
+    margin: 0;
+    padding: 0;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+  header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 20px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 2.1rem;
+    margin: 0 0 6px;
+    letter-spacing: 0.5px;
+  }
+  .tagline {
+    font-size: 1.05rem;
+    color: var(--muted);
+    margin: 0;
+  }
+  .contact {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-top: 14px;
+  }
+  .contact a { color: var(--accent); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 6px;
+    margin: 44px 0 20px;
+  }
+  .intro { font-size: 1.05rem; margin-top: 28px; }
+  .project {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--line);
+  }
+  .project:last-child { border-bottom: none; }
+  .project h3 {
+    font-size: 1.2rem;
+    margin: 0 0 4px;
+  }
+  .project .meta {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin: 0 0 10px;
+  }
+  .project p { margin: 0 0 10px; }
+  .reflect {
+    font-size: 0.92rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .links a {
+    display: inline-block;
+    font-size: 0.88rem;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    padding: 4px 12px;
+    margin-right: 8px;
+    margin-top: 4px;
+    border-radius: 2px;
+  }
+  .links a:hover { background: var(--accent); color: #fff; }
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-align: center;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Aaron Mandir</h1>
+    <p class="tagline">Aspiring finance apprentice — investment banking, accounting &amp; asset management</p>
+    <p class="contact">
+      <a href="mailto:aaronsmandir@gmail.com">aaronsmandir@gmail.com</a> ·
+      <a href="https://www.linkedin.com/in/aaron-mandir/">LinkedIn</a> ·
+      <a href="https://github.com/aaronmandir">GitHub</a>
+    </p>
+  </header>
+
+  <p class="intro">
+    I'm a school leaver building practical finance skills ahead of applying to
+    apprenticeships in 2026&ndash;27. Below is a set of self-directed projects covering
+    valuation, financial modelling and accounting analysis. Each one includes a short
+    write-up of what I'd do differently &mdash; I care more about reasoning honestly than
+    being right first time.
+  </p>
+
+  <h2>Selected Projects</h2>
+
+  <!-- ============ PROJECT 1 ============ -->
+  <div class="project">
+    <h3>Equity Research Note — [Company]</h3>
+    <p class="meta">Valuation · DCF · Comparables</p>
+    <p>
+      A 6&ndash;10 page research note on a UK-listed company: business model, industry
+      dynamics, three years of financials, a discounted cash flow valuation and a
+      comparables table, ending in a buy/hold/sell call with a price target.
+    </p>
+    <p class="reflect">What I'd do differently: [one or two honest lines here].</p>
+    <p class="links">
+      <a href="equity-note.pdf">Read the note (PDF)</a>
+      <a href="equity-model.xlsx">Model (Excel)</a>
+    </p>
+  </div>
+
+  <!-- ============ PROJECT 2 ============ -->
+  <div class="project">
+    <h3>Three-Statement Model &amp; LBO — [Company]</h3>
+    <p class="meta">Financial modelling · Private equity</p>
+    <p>
+      A fully linked three-statement model built from a company's annual report, with a
+      scenario toggle, extended into a simple leveraged buyout: could a sponsor pay a
+      premium and still hit a 20% IRR?
+    </p>
+    <p class="reflect">What I'd do differently: [one or two honest lines here].</p>
+    <p class="links">
+      <a href="model-summary.pdf">One-page summary (PDF)</a>
+      <a href="lbo-model.xlsx">Model (Excel)</a>
+    </p>
+  </div>
+
+  <!-- ============ PROJECT 3 ============ -->
+  <div class="project">
+    <h3>Accounting Deep-Dive — [Policy]</h3>
+    <p class="meta">Financial reporting</p>
+    <p>
+      A short analysis of how one accounting policy (e.g. IFRS 16 leases or goodwill
+      impairment) distorts reported numbers versus economic reality, using a real
+      company's accounts as the example.
+    </p>
+    <p class="reflect">What I'd do differently: [one or two honest lines here].</p>
+    <p class="links">
+      <a href="accounting-note.pdf">Read the note (PDF)</a>
+    </p>
+  </div>
+
+  <h2>Writing</h2>
+  <div class="project">
+    <p>
+      A weekly 500-word note on one thing that happened in markets. An archive of my
+      thinking over the gap year &mdash; consistency as much as insight.
+    </p>
+    <p class="links"><a href="#">View writing archive</a></p>
+  </div>
+
+  <h2>CV</h2>
+  <div class="project">
+    <p>Full CV available as a PDF.</p>
+    <p class="links"><a href="aaron-mandir-cv.pdf">Download CV (PDF)</a></p>
+  </div>
+
+  <footer>
+    Built with GitHub Pages · Last updated [month/year]
+  </footer>
+
+</div>
+</body>
+</html>
